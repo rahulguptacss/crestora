@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0e1b2e;
+  --color-primary: #c88634;
+  --color-primary-dark: #0b1626;
+  --color-primary-light: #df9a48;
+  --color-navy: #060e1a;
+  --color-lavender: #f9f6f0;
+  --color-muted: #5a6676;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-light: var(--color-primary-light);
+  --color-navy: var(--color-navy);
+  --color-lavender: var(--color-lavender);
+  --color-muted: var(--color-muted);
+  --font-heading: var(--font-outfit), 'Segoe UI', sans-serif;
+  --font-serif: var(--font-cormorant, 'Cormorant Garamond'), Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+a,
+button,
+[type="button"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+/* Amber gold gradient text for highlighted heading words */
+.text-primary-gradient {
+  background: linear-gradient(120deg, #b57726 0%, #d2903e 55%, #df9a48 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Shine sweep used on primary buttons */
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.btn-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.28) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.btn-shine:hover::after {
+  transform: translateX(120%);
+}
+
+/* Site-wide button style (rounded rectangle + amber gold gradient + arrow) */
+@layer components {
+  .btn-primary,
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.85rem;
+    border-radius: 10px;
+    padding: 0.9rem 1.75rem;
+    font-size: 0.975rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.005em;
+    white-space: nowrap;
+    transition:
+      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.3s ease,
+      background-position 0.5s ease,
+      color 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .btn-primary {
+    color: #ffffff;
+    background-image: linear-gradient(100deg, #0b1626 0%, #1a2f4c 50%, #c88634 100%);
+    background-size: 200% 100%;
+    background-position: 0% 0;
+    box-shadow: 0 12px 28px -12px rgba(11, 22, 38, 0.5);
+  }
+  .btn-primary:hover {
+    background-position: 100% 0;
+    transform: translateY(-2px);
+    box-shadow: 0 18px 36px -14px rgba(200, 134, 52, 0.6);
+  }
+
+  .btn-outline {
+    color: var(--color-primary-dark);
+    border: 1px solid rgba(200, 134, 52, 0.4);
+    background: transparent;
+  }
+  .btn-outline:hover {
+    color: #ffffff;
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    transform: translateY(-2px);
+  }
+
+  .btn-primary:active,
+  .btn-outline:active {
+    transform: translateY(0);
+  }
+
+  .btn-primary .btn-arrow,
+  .btn-outline .btn-arrow {
+    width: 1.15rem;
+    height: 1.15rem;
+    stroke-width: 1.75;
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .btn-primary:hover .btn-arrow,
+  .btn-outline:hover .btn-arrow {
+    transform: translateX(4px);
+  }
+}
+
+/* Hide native scrollbar on horizontal sliders */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "CRESTORA",
+      "logo_subtext": "PROPERTIES & INFRASTRUCTURE",
+      "drag_hint": "Drag down to close",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-choose-us"
+        },
+        {
+          "name": "Services",
+          "href": "#services"
+        },
+        {
+          "name": "Properties",
+          "href": "#properties"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        }
+      ],
+      "button_text": "Enquire Now",
+      "button_link": "#enquiry",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu"
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "logo_text": "CRESTORA",
+      "logo_subtext": "PROPERTIES & INFRASTRUCTURE",
+      "description": "Crestora is a premier property development and infrastructure conglomerate pioneering landmark architectural towers, master-planned sustainable communities, and smart civic infrastructure engineered for enduring value.",
+      "contact_title": "Corporate Headquarters",
+      "contact_items": [
+        {
+          "icon": "phone",
+          "label": "Phone",
+          "text": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "mail",
+          "label": "Email",
+          "text": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "map-pin",
+          "label": "Address",
+          "text": "123 Education Lane, New York, NY 10001"
+        }
+      ],
+      "pages_title": "Quick Navigation",
+      "pages_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-choose-us"
+        },
+        {
+          "name": "Services",
+          "href": "#services"
+        },
+        {
+          "name": "Properties",
+          "href": "#properties"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Enquiry Now",
+          "href": "#enquiry"
+        }
+      ],
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "socials": [
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "linkedin",
+          "aria_label": "LinkedIn"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com",
+          "icon": "instagram",
+          "aria_label": "Instagram"
+        },
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "facebook",
+          "aria_label": "Facebook"
+        },
+        {
+          "name": "YouTube",
+          "href": "https://youtube.com",
+          "icon": "youtube",
+          "aria_label": "YouTube"
+        }
+      ]
+    },
+    "BackToTop": {
+      "aria_label": "Back to top"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "CRESTORA – Properties & Infrastructure | Visionary Developments",
+      "pageName": "Home",
+      "metadata": {
+        "title": "CRESTORA – Properties & Infrastructure | Visionary Developments",
+        "description": "Pioneering iconic skyscrapers, sustainable master-planned infrastructure, and ultra-prime residential developments with uncompromised engineering precision."
+      },
+      "components": [
+        {
+          "key": "hero",
+          "component": "Hero"
+        },
+        {
+          "key": "about",
+          "component": "About"
+        },
+        {
+          "key": "why_choose_us",
+          "component": "WhyChooseUs"
+        },
+        {
+          "key": "services",
+          "component": "Services"
+        },
+        {
+          "key": "properties",
+          "component": "Properties"
+        },
+        {
+          "key": "testimonials",
+          "component": "Testimonials"
+        },
+        {
+          "key": "enquiry",
+          "component": "Enquiry"
+        }
+      ]
+    },
+    "not_found": {
+      "metadata": {
+        "title": "404 - Page Not Found | CRESTORA",
+        "description": "The requested development page or property does not exist."
+      },
+      "code": "404",
+      "badge": "ERROR 404",
+      "title": "Page Not Found",
+      "description": "The luxury development, infrastructure project, or page you are looking for has been moved or does not exist.",
+      "back_home": {
+        "text": "RETURN TO HOME",
+        "href": "/"
+      }
+    }
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "VISIONARY ARCHITECTURE • INFRASTRUCTURE EXCELLENCE",
+      "title_line1": "Building",
+      "title_line2": "Tomorrow",
+      "description": "Pioneering iconic skyscrapers, sustainable master-planned infrastructure, and ultra-prime residential developments built with uncompromising engineering precision.",
+      "cta_text": "EXPLORE DEVELOPMENTS",
+      "cta_link": "#properties",
+      "secondary_cta_text": "CONNECT WITH US",
+      "secondary_cta_link": "#enquiry",
+      "video": "/hero/banner.mp4",
+      "image": "/hero/hero-skyline.jpg",
+      "image_alt": "Crestora Architectural Skyline & Infrastructure",
+      "stats": [
+        {
+          "value": "25+",
+          "label": "Years of Engineering"
+        },
+        {
+          "value": "180+",
+          "label": "Projects Completed"
+        },
+        {
+          "value": "$4.8B",
+          "label": "Asset Portfolio"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "ABOUT CRESTORA",
+      "side_text": "CRESTORA INFRASTRUCTURE",
+      "title_regular": "Shaping Global Skylines",
+      "title_highlight": "Integrity & Innovation",
+      "description_paragraphs": [
+        "Founded on a foundation of architectural excellence and world-class civil engineering, Crestora has established itself as an industry vanguard in luxury property development and large-scale infrastructure.",
+        "From sustainable mixed-use high rises to high-speed civic transit corridors and green biophilic communities, our projects combine architectural grandeur, eco-friendly energy standards, and generational investment resilience."
+      ],
+      "button_text": "DISCOVER OUR STORY",
+      "button_link": "#why-choose-us",
+      "image_main": "/about/about-pavilion.jpg",
+      "image_main_alt": "Crestora Headquarters Architectural Pavilion",
+      "stats": [
+        {
+          "value": "99.8%",
+          "label": "On-Time Delivery"
+        },
+        {
+          "value": "45+",
+          "label": "Global Awards"
+        },
+        {
+          "value": "12M+",
+          "label": "Sq.Ft. Developed"
+        }
+      ],
+      "image_secondary": "/about/why-choose.jpg",
+      "image_secondary_alt": "Crestora Engineering Excellence"
+    },
+    "why_choose_us": {
+      "eyebrow": "WHY CRESTORA",
+      "title_regular": "Where Precision Engineering Meets",
+      "title_highlight": "Unrivalled Vision",
+      "description": "Our multi-disciplinary team of master architects, structural engineers, and investment strategists deliver projects that outperform in aesthetic grandeur and capital return.",
+      "image": "/about/why-choose.jpg",
+      "image_alt": "Sustainable Infrastructure Development by Crestora",
+      "items": [
+        {
+          "id": "1",
+          "title": "Precision Civil Engineering",
+          "description": "Rigorous seismic standards, Grade-A structural materials, and next-generation building information modeling."
+        },
+        {
+          "id": "2",
+          "title": "Biophilic & Sustainable Design",
+          "description": "LEED Platinum certifications, integrated solar energy canopies, and living ecological vertical gardens."
+        },
+        {
+          "id": "3",
+          "title": "Strategic Prime Locations",
+          "description": "Securing high-growth metropolitan corridors and waterfront precincts for superior generational capital appreciation."
+        },
+        {
+          "id": "4",
+          "title": "Turnkey Project Execution",
+          "description": "End-to-end lifecycle stewardship from architectural planning and regulatory clearance to construction delivery."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "CORE CAPABILITIES",
+      "title_regular": "Comprehensive Solutions Across",
+      "title_highlight": "Property & Infrastructure",
+      "subtitle": "From master-planned urban developments to private ultra-luxury residences, our capabilities span the entire infrastructure value chain.",
+      "read_more_text": "Learn More",
+      "items": [
+        {
+          "id": "s1",
+          "icon": "building",
+          "title": "Commercial Towers & Hubs",
+          "description": "Grade-A corporate skyscrapers with state-of-the-art automation and flexible intelligent workspace layouts.",
+          "href": "#enquiry"
+        },
+        {
+          "id": "s2",
+          "icon": "house",
+          "title": "Ultra-Luxury Residential",
+          "description": "Iconic waterfront penthouses, signature sky villas, and prestigious private estates crafted with premium materials.",
+          "href": "#enquiry"
+        },
+        {
+          "id": "s3",
+          "icon": "trending",
+          "title": "Civil & Urban Infrastructure",
+          "description": "Bridges, transit networks, and municipal utilities built to the highest durability and environmental standards.",
+          "href": "#enquiry"
+        },
+        {
+          "id": "s4",
+          "icon": "handshake",
+          "title": "Sustainable Smart Townships",
+          "description": "Master-planned biophilic communities with self-contained energy, water recycling, and expansive green parks.",
+          "href": "#enquiry"
+        },
+        {
+          "id": "s5",
+          "icon": "key",
+          "title": "Industrial & Logistics Parks",
+          "description": "High-throughput logistics corridors, automated warehousing, and integrated industrial parks engineered for global supply chains.",
+          "href": "#enquiry"
+        }
+      ]
+    },
+    "properties": {
+      "eyebrow": "SIGNATURE PORTFOLIO",
+      "title_regular": "Featured Developments &",
+      "title_highlight": "Iconic Landmarks",
+      "description": "Explore our flagship architectural developments setting global benchmarks in luxury living and commercial performance.",
+      "button_text": "SCHEDULE PRIVATE TOUR",
+      "button_link": "#enquiry",
+      "items": [
+        {
+          "id": "p1",
+          "category": "Commercial Skyscraper",
+          "title": "Crestora Horizon Sky Tower",
+          "image": "/properties/sky-tower.jpg",
+          "alt": "Crestora Horizon Sky Tower",
+          "href": "#enquiry"
+        },
+        {
+          "id": "p2",
+          "category": "Waterfront Residences",
+          "title": "Crestora Marina Residences",
+          "image": "/properties/marina-residences.jpg",
+          "alt": "Crestora Marina Residences",
+          "href": "#enquiry"
+        },
+        {
+          "id": "p3",
+          "category": "Sustainable Eco-City",
+          "title": "Crestora Eco-Tech Park",
+          "image": "/properties/ecotech-park.jpg",
+          "alt": "Crestora Eco-Tech Park",
+          "href": "#enquiry"
+        },
+        {
+          "id": "p4",
+          "category": "Private Villa Estate",
+          "title": "Crestora Sovereign Villas",
+          "image": "/properties/sovereign-villas.jpg",
+          "alt": "Crestora Sovereign Villas",
+          "href": "#enquiry"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "TESTIMONIALS",
+      "title_regular": "Trusted by Global Leaders &",
+      "title_highlight": "Institutional Investors",
+      "intro": "Here is what distinguished institutional partners, enterprise tenants, and private property owners say about partnering with Crestora.",
+      "items": [
+        {
+          "id": "t1",
+          "quote": "Crestora's engineering excellence and visionary design delivered our corporate headquarters ahead of schedule. The quality of finishes and structural integrity is simply unmatched in the market.",
+          "author": "Marcus Sterling",
+          "role": "Managing Director, Apex Capital Partners",
+          "avatar": "/testimonials/client-1.jpg",
+          "rating": 5,
+          "image": "/properties/sky-tower.jpg",
+          "image_alt": "Crestora Horizon Sky Tower"
+        },
+        {
+          "id": "t2",
+          "quote": "Investing in Crestora Marina Residences was one of the finest portfolio decisions we made. The architectural brilliance, waterfront views, and luxury concierge amenities exceed international standards.",
+          "author": "Elena Rostova",
+          "role": "Principal, Meridian Global Investments",
+          "avatar": "/testimonials/client-2.jpg",
+          "rating": 5,
+          "image": "/properties/marina-residences.jpg",
+          "image_alt": "Crestora Marina Residences"
+        },
+        {
+          "id": "t3",
+          "quote": "Their commitment to sustainable biophilic architecture and smart city infrastructure is groundbreaking. Crestora creates spaces that inspire communities while generating outstanding long-term value.",
+          "author": "Arthur Pendelton",
+          "role": "Chairman, Urban Infrastructure Fund",
+          "avatar": "/testimonials/client-3.jpg",
+          "rating": 5,
+          "image": "/properties/ecotech-park.jpg",
+          "image_alt": "Crestora Eco-Tech Park"
+        }
+      ],
+      "prev_aria_label": "Previous testimonial",
+      "next_aria_label": "Next testimonial",
+      "slides_aria_label": "Client testimonials",
+      "testimonial_aria_label": "Show testimonial from",
+      "rating_aria_label": "out of 5 stars"
+    },
+    "enquiry": {
+      "eyebrow": "CONNECT WITH US",
+      "title_regular": "Begin Your Journey With",
+      "title_highlight": "Crestora",
+      "description": "Whether you are looking to acquire a signature residence, lease prime commercial space, or partner on infrastructure developments, our team is ready to assist.",
+      "image": "/enquiry/enquiry-estate.jpg",
+      "image_alt": "Crestora Sovereign Estate",
+      "features": [
+        {
+          "icon": "home",
+          "title": "Bespoke Portfolio Advisory",
+          "description": "Tailored guidance for high-net-worth individuals and institutional investment groups."
+        },
+        {
+          "icon": "shield",
+          "title": "Full Regulatory Compliance",
+          "description": "Transparent legal title deeds, Grade-A certifications, and institutional standards."
+        },
+        {
+          "icon": "headset",
+          "title": "Dedicated Concierge Service",
+          "description": "Priority scheduling for private site visits, executive previews, and architectural walk-throughs."
+        }
+      ],
+      "form": {
+        "name_label": "Full Name",
+        "name_placeholder": "Your Name*",
+        "email_label": "Email Address",
+        "email_placeholder": "Your Email Address*",
+        "phone_label": "Phone Number",
+        "phone_placeholder": "Your Phone Number*",
+        "property_type_label": "Interest Area",
+        "property_type_placeholder": "Select Interest Area",
+        "property_type_options": [
+          "Commercial Towers & Grade-A Offices",
+          "Waterfront Luxury Residences",
+          "Sustainable Smart Townships",
+          "Private Villa Estates",
+          "Infrastructure & Joint Ventures"
+        ],
+        "budget_label": "Investment Range",
+        "budget_placeholder": "Select Investment Range",
+        "budget_options": [
+          "$1,000,000 - $3,000,000",
+          "$3,000,000 - $10,000,000",
+          "$10,000,000 - $25,000,000",
+          "$25,000,000+"
+        ],
+        "message_label": "Project / Requirement Details",
+        "message_placeholder": "Share your specific requirements or travel timeline...",
+        "submit_text": "SUBMIT CONSULTATION REQUEST",
+        "success_message": "Thank you for reaching out. A Crestora senior relationship director will contact you within 24 hours.",
+        "location_label": "Preferred Location / City",
+        "location_placeholder": "e.g. New York, London, Dubai"
+      }
+    }
+  }
+}
