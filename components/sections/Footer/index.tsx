@@ -61,7 +61,7 @@ export default function Footer({ data }: FooterProps) {
               className="relative block w-56 h-[56px] sm:w-60 sm:h-[62px] mb-4"
               aria-label={data.logo_text}
             >
-              <Image src={data.logo} alt={data.logo_text} fill sizes="256px" className="object-contain object-left" />
+              <Image src={data.logo} alt={data.logo_text} fill quality={90} sizes="256px" className="object-contain object-left" />
             </Link>
             <p className="text-[13.5px] sm:text-[14px] leading-relaxed text-[#9eabc0] max-w-sm">{data.description}</p>
           </div>

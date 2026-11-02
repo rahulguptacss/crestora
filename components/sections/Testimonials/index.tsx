@@ -103,6 +103,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
                   src={item.image}
                   alt={item.image_alt}
                   fill
+                  quality={90}
                   sizes="(max-width: 1024px) 100vw, 600px"
                   className="object-cover"
                 />
@@ -138,7 +139,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
 
                       <div className="mt-6 flex items-center gap-5">
                         <div className="relative h-[76px] w-[76px] shrink-0 overflow-hidden rounded-full bg-lavender">
-                          <Image src={item.avatar} alt={item.author} fill sizes="76px" className="object-cover" />
+                          <Image src={item.avatar} alt={item.author} fill quality={90} sizes="76px" className="object-cover" />
                         </div>
                         <div>
                           <p className="font-heading text-lg font-semibold text-foreground">{item.author}</p>

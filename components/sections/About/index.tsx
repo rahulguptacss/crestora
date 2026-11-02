@@ -45,6 +45,7 @@ export default function About({ data, showButton = true }: AboutProps) {
                   src={data.image_main}
                   alt={data.image_main_alt}
                   fill
+                  quality={90}
                   sizes="(max-width: 1024px) 100vw, 420px"
                   className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
                 />
@@ -130,6 +131,7 @@ export default function About({ data, showButton = true }: AboutProps) {
                       src={data.image_secondary}
                       alt={data.image_secondary_alt}
                       fill
+                      quality={90}
                       sizes="(max-width: 768px) 100vw, 460px"
                       className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
                     />

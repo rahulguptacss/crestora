@@ -240,6 +240,7 @@ export default function Enquiry({ data }: EnquiryProps) {
                 src={data.image}
                 alt={data.image_alt}
                 fill
+                quality={90}
                 sizes="(max-width: 1024px) 100vw, 520px"
                 className="object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-105"
               />

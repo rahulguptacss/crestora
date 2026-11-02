@@ -32,6 +32,7 @@ function PropertyCard({ item, ariaLabel, priority = false }: { item: PropertyIte
         alt={item.alt}
         fill
         priority={priority}
+        quality={90}
         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
         className="object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-110"
       />

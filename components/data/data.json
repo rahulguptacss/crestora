@@ -189,7 +189,7 @@
       "secondary_cta_text": "CONNECT WITH US",
       "secondary_cta_link": "#enquiry",
       "video": "/hero/banner.mp4",
-      "image": "/hero/hero-skyline.jpg",
+      "image": "/hero/hero-skyline.webp",
       "image_alt": "Crestora Architectural Skyline & Infrastructure",
       "stats": [
         {
@@ -217,7 +217,7 @@
       ],
       "button_text": "DISCOVER OUR STORY",
       "button_link": "#why-choose-us",
-      "image_main": "/about/about-pavilion.jpg",
+      "image_main": "/about/about-pavilion.webp",
       "image_main_alt": "Crestora Headquarters Architectural Pavilion",
       "stats": [
         {
@@ -233,7 +233,7 @@
           "label": "Sq.Ft. Developed"
         }
       ],
-      "image_secondary": "/about/why-choose.jpg",
+      "image_secondary": "/about/why-choose.webp",
       "image_secondary_alt": "Crestora Engineering Excellence"
     },
     "why_choose_us": {
@@ -241,7 +241,7 @@
       "title_regular": "Where Precision Engineering Meets",
       "title_highlight": "Unrivalled Vision",
       "description": "Our multi-disciplinary team of master architects, structural engineers, and investment strategists deliver projects that outperform in aesthetic grandeur and capital return.",
-      "image": "/about/why-choose.jpg",
+      "image": "/about/why-choose.webp",
       "image_alt": "Sustainable Infrastructure Development by Crestora",
       "items": [
         {
@@ -322,7 +322,7 @@
           "id": "p1",
           "category": "Commercial Skyscraper",
           "title": "Crestora Horizon Sky Tower",
-          "image": "/properties/sky-tower.jpg",
+          "image": "/properties/sky-tower.webp",
           "alt": "Crestora Horizon Sky Tower",
           "href": "#enquiry"
         },
@@ -330,7 +330,7 @@
           "id": "p2",
           "category": "Waterfront Residences",
           "title": "Crestora Marina Residences",
-          "image": "/properties/marina-residences.jpg",
+          "image": "/properties/marina-residences.webp",
           "alt": "Crestora Marina Residences",
           "href": "#enquiry"
         },
@@ -338,7 +338,7 @@
           "id": "p3",
           "category": "Sustainable Eco-City",
           "title": "Crestora Eco-Tech Park",
-          "image": "/properties/ecotech-park.jpg",
+          "image": "/properties/ecotech-park.webp",
           "alt": "Crestora Eco-Tech Park",
           "href": "#enquiry"
         },
@@ -346,7 +346,7 @@
           "id": "p4",
           "category": "Private Villa Estate",
           "title": "Crestora Sovereign Villas",
-          "image": "/properties/sovereign-villas.jpg",
+          "image": "/properties/sovereign-villas.webp",
           "alt": "Crestora Sovereign Villas",
           "href": "#enquiry"
         }
@@ -363,9 +363,9 @@
           "quote": "Crestora's engineering excellence and visionary design delivered our corporate headquarters ahead of schedule. The quality of finishes and structural integrity is simply unmatched in the market.",
           "author": "Marcus Sterling",
           "role": "Managing Director, Apex Capital Partners",
-          "avatar": "/testimonials/client-1.jpg",
+          "avatar": "/testimonials/client-1.webp",
           "rating": 5,
-          "image": "/properties/sky-tower.jpg",
+          "image": "/properties/sky-tower.webp",
           "image_alt": "Crestora Horizon Sky Tower"
         },
         {
@@ -373,9 +373,9 @@
           "quote": "Investing in Crestora Marina Residences was one of the finest portfolio decisions we made. The architectural brilliance, waterfront views, and luxury concierge amenities exceed international standards.",
           "author": "Elena Rostova",
           "role": "Principal, Meridian Global Investments",
-          "avatar": "/testimonials/client-2.jpg",
+          "avatar": "/testimonials/client-2.webp",
           "rating": 5,
-          "image": "/properties/marina-residences.jpg",
+          "image": "/properties/marina-residences.webp",
           "image_alt": "Crestora Marina Residences"
         },
         {
@@ -383,9 +383,9 @@
           "quote": "Their commitment to sustainable biophilic architecture and smart city infrastructure is groundbreaking. Crestora creates spaces that inspire communities while generating outstanding long-term value.",
           "author": "Arthur Pendelton",
           "role": "Chairman, Urban Infrastructure Fund",
-          "avatar": "/testimonials/client-3.jpg",
+          "avatar": "/testimonials/client-3.webp",
           "rating": 5,
-          "image": "/properties/ecotech-park.jpg",
+          "image": "/properties/ecotech-park.webp",
           "image_alt": "Crestora Eco-Tech Park"
         }
       ],
@@ -400,7 +400,7 @@
       "title_regular": "Begin Your Journey With",
       "title_highlight": "Crestora",
       "description": "Whether you are looking to acquire a signature residence, lease prime commercial space, or partner on infrastructure developments, our team is ready to assist.",
-      "image": "/enquiry/enquiry-estate.jpg",
+      "image": "/enquiry/enquiry-estate.webp",
       "image_alt": "Crestora Sovereign Estate",
       "features": [
         {

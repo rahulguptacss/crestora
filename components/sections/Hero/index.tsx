@@ -88,6 +88,7 @@ export default function Hero({ data }: HeroProps) {
                   alt={data.image_alt}
                   fill
                   priority
+                  quality={90}
                   sizes="(max-width: 1280px) 100vw, 1280px"
                   className="object-cover object-center"
                 />
@@ -98,6 +99,7 @@ export default function Hero({ data }: HeroProps) {
                 alt={data.image_alt}
                 fill
                 priority
+                quality={90}
                 sizes="(max-width: 1280px) 100vw, 1280px"
                 className="object-cover object-center"
               />

@@ -105,6 +105,7 @@ export default function Header({ data }: HeaderProps) {
                 alt={`${data.logo_text} ${data.logo_subtext}`}
                 fill
                 priority
+                quality={90}
                 sizes="240px"
                 className="object-contain object-left"
               />
